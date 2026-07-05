@@ -142,6 +142,13 @@ R16 = [
     ("SUI", "COL", "CA"),   # Vancouver
 ]
 
+# R16 ties already decided on the pitch: (team_a, team_b) -> winner.
+# July 4: Morocco 3-0 Canada; France 1-0 Paraguay.
+DECIDED = {
+    ("CAN", "MAR"): "MAR",
+    ("PAR", "FRA"): "FRA",
+}
+
 QF_VENUES = ["US", "US", "US", "US"]      # Foxborough, LA, Miami, Kansas City
 SF_VENUES = ["US", "US"]                  # Arlington, Atlanta
 FINAL_VENUE = "US"                        # New Jersey
@@ -225,6 +232,10 @@ def simulate(strength, seed=42):
         # R16 winners as integer team indices per sim
         r16w = []
         for a, b, venue in R16:
+            winner = DECIDED.get((a, b))
+            if winner is not None:
+                r16w.append(np.full(n, idx[winner]))
+                continue
             aw = sim_knockout(
                 rng, strength[a], strength[b],
                 home_adj(a, venue), home_adj(b, venue), n)
