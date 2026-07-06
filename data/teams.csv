@@ -1,0 +1,17 @@
+code,team,elo_live,fifa_points,market_value_meur,population_m,gdp_per_capita_kusd,registered_players_m,culture_index,wc_titles,wc_finals_lost,wc_semis,host_status
+ESP,Spain,2159,1892.28,1220.0,48.4,34,1.05,9.5,1,0,3,none
+ARG,Argentina,2151,1913.71,807.5,46.2,13,0.66,10.0,3,3,5,none
+FRA,France,2143,1916.24,1520.0,68.5,46,2.20,9.0,2,2,6,none
+ENG,England,2076,1850.97,1360.0,57.0,52,1.35,9.5,1,0,3,none
+BRA,Brazil,1993,1804.93,928.2,216.0,10,2.10,10.0,5,2,11,none
+POR,Portugal,2013,1787.86,1010.0,10.5,28,0.16,9.5,0,0,2,none
+COL,Colombia,2009,1739.89,302.35,52.2,7,0.30,9.0,0,0,0,none
+MEX,Mexico,1913,1754.30,191.85,129.5,12,0.35,9.0,0,0,0,host_mex
+SUI,Switzerland,1943,1696.29,332.5,8.9,95,0.28,7.5,0,0,0,none
+NOR,Norway,1972,1617.67,589.9,5.55,90,0.37,7.0,0,0,0,none
+BEL,Belgium,1910,1756.52,547.5,11.8,55,0.45,8.0,0,0,2,none
+MAR,Morocco,1921,1788.86,447.7,37.8,4,0.09,8.5,0,0,1,none
+PAR,Paraguay,1814,1542.48,153.65,6.9,6.5,0.06,8.5,0,0,0,none
+USA,United States,1798,1690.33,385.6,335.0,85,4.20,5.5,0,0,1,host_usa
+CAN,Canada,1729,1571.34,198.65,40.1,55,0.90,5.0,0,0,0,host_can
+EGY,Egypt,1747,1597.05,116.48,106.0,4,0.06,8.5,0,0,0,none
