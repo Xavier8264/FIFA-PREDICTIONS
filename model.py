@@ -145,11 +145,14 @@ R16 = [
 # R16 ties already decided on the pitch: (team_a, team_b) -> winner.
 # July 4: Morocco 3-0 Canada; France 1-0 Paraguay.
 # July 5: Brazil 1-2 Norway; Mexico 2-3 England.
+# July 6: Portugal 0-1 Spain; USA 1-4 Belgium.
 DECIDED = {
     ("CAN", "MAR"): "MAR",
     ("PAR", "FRA"): "FRA",
     ("BRA", "NOR"): "NOR",
     ("MEX", "ENG"): "ENG",
+    ("POR", "ESP"): "ESP",
+    ("USA", "BEL"): "BEL",
 }
 
 QF_VENUES = ["US", "US", "US", "US"]      # Foxborough, LA, Miami, Kansas City
